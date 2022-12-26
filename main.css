@@ -1,0 +1,45 @@
+/*Dấu . = class ----- Dấu # = id*/
+.content-page h1 {
+    font-size: 30px;  /*font-size = kích thước chữ*/
+
+    line-height: 30px;  /*line-height = chiều cao( khoảng cách dọc) của chữ*/
+
+    font-family: 'Roboto', sans-serif;  /*font-family = Tên font*/
+
+    font-weight: 600;   /*font-weight = Độ đậm nhạt của chữ*/
+
+    color: #000;  /*color = Màu chữ */
+
+    letter-spacing: 0;  /*letter-spacing = KHoảng cách giữa các chữ cái*/
+
+    text-align: center;  /*text-align = Căn lề chữ*/
+
+    background: #fff;  /*background = background-color*/
+
+    /*background-image: url("");    ảnh nền*/
+
+    text-decoration: none;    /*text-decoration = css cho thẻ a*/
+
+    /*text-shadow = Đổ bóng cho text*/
+
+    /*word-break = xuống hàng chữ*/
+
+    text-transform: uppercase;    /*text-transform = Viết hoa(thường) text*/
+
+    cursor: pointer !important;   /*Thay thế con trỏ chuột*/
+
+                /*!important chế độ ưu tiên css*/
+    :root{
+        --text-color : green
+    }
+     color var
+}
+.content-page h1:hover{
+    background: #f2f2f2;
+    color: red;
+}
+
+#content-page{
+}
+
+div

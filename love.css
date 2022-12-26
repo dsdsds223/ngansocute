@@ -1,0 +1,58 @@
+/* font-family: 'Roboto', sans-serif; */
+
+.section__featured h2 {
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.section__featured > p {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 50px;
+    /*padding: 0 0 50px 0;*/
+}
+
+.block__column--content{
+    display: flex;
+    column-gap: 20px;
+    background-color: pink;
+    /*column-gap : tăng khoảng cách các column khi dùng flex*/
+}
+.box__content {
+    width: 25%;
+    text-align: center;
+}
+.box__content h3 {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0;
+    text-align: left;
+    background-color: pink;
+}
+.box__content img {
+    border-radius: 20px;
+    width: 100%;
+      height: 811.22px;;
+    object-fit: cover;
+    /*object-fit : co giãn ảnh cho phù hợp với kích thước*/
+}
+.block__date--price {
+    display: flex;
+    justify-content: space-between;
+}
+.block__price {
+   color: pink;
+}
+.block__date i {
+    padding-right: 10px;
+}
+.block__date p {
+    display: flex;
+    align-items: center;
+}
